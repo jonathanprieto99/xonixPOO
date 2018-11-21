@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO
 CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/MySFML2.dir
+# Target rules for target CMakeFiles/MySFML.dir
 
 # All Build rule for target.
-CMakeFiles/MySFML2.dir/all:
-	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/depend
-	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target MySFML2"
-.PHONY : CMakeFiles/MySFML2.dir/all
+CMakeFiles/MySFML.dir/all:
+	$(MAKE) -f CMakeFiles/MySFML.dir/build.make CMakeFiles/MySFML.dir/depend
+	$(MAKE) -f CMakeFiles/MySFML.dir/build.make CMakeFiles/MySFML.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target MySFML"
+.PHONY : CMakeFiles/MySFML.dir/all
 
 # Include target in all.
-all: CMakeFiles/MySFML2.dir/all
+all: CMakeFiles/MySFML.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MySFML2.dir/rule: cmake_check_build_system
+CMakeFiles/MySFML.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MySFML2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MySFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/MySFML2.dir/rule
+.PHONY : CMakeFiles/MySFML.dir/rule
 
 # Convenience name for target.
-MySFML2: CMakeFiles/MySFML2.dir/rule
+MySFML: CMakeFiles/MySFML.dir/rule
 
-.PHONY : MySFML2
-
-# clean rule for target.
-CMakeFiles/MySFML2.dir/clean:
-	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/clean
-.PHONY : CMakeFiles/MySFML2.dir/clean
+.PHONY : MySFML
 
 # clean rule for target.
-clean: CMakeFiles/MySFML2.dir/clean
+CMakeFiles/MySFML.dir/clean:
+	$(MAKE) -f CMakeFiles/MySFML.dir/build.make CMakeFiles/MySFML.dir/clean
+.PHONY : CMakeFiles/MySFML.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/MySFML.dir/clean
 
 .PHONY : clean
 

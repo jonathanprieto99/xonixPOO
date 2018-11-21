@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.4)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(EXECUTABLE_NAME "MySFML2")
+set(EXECUTABLE_NAME "MySFML")
 set(SOURCE_FILES main.cpp data/Scene.cpp data/Scene.h data/Entities.cpp data/Entities.h data/Player.cpp data/Player.h data/Ghost.cpp data/Ghost.h data/Item.cpp data/Item.h data/Game.cpp data/Game.h data/Menu.cpp data/Menu.h)
 add_executable(${EXECUTABLE_NAME} main.cpp)
 
