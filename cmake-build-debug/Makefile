@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO
+CMAKE_SOURCE_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/49/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/49/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,195 @@ xonixpacman/fast:
 	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
 .PHONY : xonixpacman/fast
 
+Entities.o: Entities.cpp.o
+
+.PHONY : Entities.o
+
+# target to build an object file
+Entities.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.o
+.PHONY : Entities.cpp.o
+
+Entities.i: Entities.cpp.i
+
+.PHONY : Entities.i
+
+# target to preprocess a source file
+Entities.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.i
+.PHONY : Entities.cpp.i
+
+Entities.s: Entities.cpp.s
+
+.PHONY : Entities.s
+
+# target to generate assembly for a file
+Entities.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.s
+.PHONY : Entities.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Ghost.o: Ghost.cpp.o
+
+.PHONY : Ghost.o
+
+# target to build an object file
+Ghost.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.o
+.PHONY : Ghost.cpp.o
+
+Ghost.i: Ghost.cpp.i
+
+.PHONY : Ghost.i
+
+# target to preprocess a source file
+Ghost.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.i
+.PHONY : Ghost.cpp.i
+
+Ghost.s: Ghost.cpp.s
+
+.PHONY : Ghost.s
+
+# target to generate assembly for a file
+Ghost.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.s
+.PHONY : Ghost.cpp.s
+
+Item.o: Item.cpp.o
+
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+Scene.o: Scene.cpp.o
+
+.PHONY : Scene.o
+
+# target to build an object file
+Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.o
+.PHONY : Scene.cpp.o
+
+Scene.i: Scene.cpp.i
+
+.PHONY : Scene.i
+
+# target to preprocess a source file
+Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.i
+.PHONY : Scene.cpp.i
+
+Scene.s: Scene.cpp.s
+
+.PHONY : Scene.s
+
+# target to generate assembly for a file
+Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.s
+.PHONY : Scene.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... xonixpacman"
+	@echo "... Entities.o"
+	@echo "... Entities.i"
+	@echo "... Entities.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Ghost.o"
+	@echo "... Ghost.i"
+	@echo "... Ghost.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
+	@echo "... Scene.o"
+	@echo "... Scene.i"
+	@echo "... Scene.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

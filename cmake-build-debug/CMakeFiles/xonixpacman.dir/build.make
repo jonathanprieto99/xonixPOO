@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO
+CMAKE_SOURCE_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xonixpacman.dir/depend.make
@@ -59,25 +59,130 @@ include CMakeFiles/xonixpacman.dir/flags.make
 
 CMakeFiles/xonixpacman.dir/main.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
 CMakeFiles/xonixpacman.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xonixpacman.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/main.cpp.o -c /home/roosevelt/Documentos/POO/Final/xonixPOO/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xonixpacman.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/main.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/main.cpp
 
 CMakeFiles/xonixpacman.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roosevelt/Documentos/POO/Final/xonixPOO/main.cpp > CMakeFiles/xonixpacman.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/main.cpp > CMakeFiles/xonixpacman.dir/main.cpp.i
 
 CMakeFiles/xonixpacman.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roosevelt/Documentos/POO/Final/xonixPOO/main.cpp -o CMakeFiles/xonixpacman.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/main.cpp -o CMakeFiles/xonixpacman.dir/main.cpp.s
+
+CMakeFiles/xonixpacman.dir/Scene.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Scene.cpp.o: ../Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xonixpacman.dir/Scene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Scene.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Scene.cpp
+
+CMakeFiles/xonixpacman.dir/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Scene.cpp > CMakeFiles/xonixpacman.dir/Scene.cpp.i
+
+CMakeFiles/xonixpacman.dir/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Scene.cpp -o CMakeFiles/xonixpacman.dir/Scene.cpp.s
+
+CMakeFiles/xonixpacman.dir/Entities.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Entities.cpp.o: ../Entities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xonixpacman.dir/Entities.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Entities.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Entities.cpp
+
+CMakeFiles/xonixpacman.dir/Entities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Entities.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Entities.cpp > CMakeFiles/xonixpacman.dir/Entities.cpp.i
+
+CMakeFiles/xonixpacman.dir/Entities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Entities.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Entities.cpp -o CMakeFiles/xonixpacman.dir/Entities.cpp.s
+
+CMakeFiles/xonixpacman.dir/Player.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xonixpacman.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Player.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Player.cpp
+
+CMakeFiles/xonixpacman.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Player.cpp > CMakeFiles/xonixpacman.dir/Player.cpp.i
+
+CMakeFiles/xonixpacman.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Player.cpp -o CMakeFiles/xonixpacman.dir/Player.cpp.s
+
+CMakeFiles/xonixpacman.dir/Ghost.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Ghost.cpp.o: ../Ghost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xonixpacman.dir/Ghost.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Ghost.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.cpp
+
+CMakeFiles/xonixpacman.dir/Ghost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Ghost.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.cpp > CMakeFiles/xonixpacman.dir/Ghost.cpp.i
+
+CMakeFiles/xonixpacman.dir/Ghost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Ghost.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.cpp -o CMakeFiles/xonixpacman.dir/Ghost.cpp.s
+
+CMakeFiles/xonixpacman.dir/Item.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Item.cpp.o: ../Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/xonixpacman.dir/Item.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Item.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Item.cpp
+
+CMakeFiles/xonixpacman.dir/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Item.cpp > CMakeFiles/xonixpacman.dir/Item.cpp.i
+
+CMakeFiles/xonixpacman.dir/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Item.cpp -o CMakeFiles/xonixpacman.dir/Item.cpp.s
+
+CMakeFiles/xonixpacman.dir/Game.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/xonixpacman.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Game.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Game.cpp
+
+CMakeFiles/xonixpacman.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Game.cpp > CMakeFiles/xonixpacman.dir/Game.cpp.i
+
+CMakeFiles/xonixpacman.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Game.cpp -o CMakeFiles/xonixpacman.dir/Game.cpp.s
+
+CMakeFiles/xonixpacman.dir/Menu.cpp.o: CMakeFiles/xonixpacman.dir/flags.make
+CMakeFiles/xonixpacman.dir/Menu.cpp.o: ../Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/xonixpacman.dir/Menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xonixpacman.dir/Menu.cpp.o -c /home/zero/Documentos/POO_II_Project/xonixPOO/Menu.cpp
+
+CMakeFiles/xonixpacman.dir/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xonixpacman.dir/Menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zero/Documentos/POO_II_Project/xonixPOO/Menu.cpp > CMakeFiles/xonixpacman.dir/Menu.cpp.i
+
+CMakeFiles/xonixpacman.dir/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xonixpacman.dir/Menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zero/Documentos/POO_II_Project/xonixPOO/Menu.cpp -o CMakeFiles/xonixpacman.dir/Menu.cpp.s
 
 # Object files for target xonixpacman
 xonixpacman_OBJECTS = \
-"CMakeFiles/xonixpacman.dir/main.cpp.o"
+"CMakeFiles/xonixpacman.dir/main.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Scene.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Entities.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Player.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Ghost.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Item.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Game.cpp.o" \
+"CMakeFiles/xonixpacman.dir/Menu.cpp.o"
 
 # External object files for target xonixpacman
 xonixpacman_EXTERNAL_OBJECTS =
 
 xonixpacman: CMakeFiles/xonixpacman.dir/main.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Scene.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Entities.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Player.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Ghost.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Item.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Game.cpp.o
+xonixpacman: CMakeFiles/xonixpacman.dir/Menu.cpp.o
 xonixpacman: CMakeFiles/xonixpacman.dir/build.make
 xonixpacman: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 xonixpacman: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -85,7 +190,7 @@ xonixpacman: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 xonixpacman: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 xonixpacman: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 xonixpacman: CMakeFiles/xonixpacman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable xonixpacman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable xonixpacman"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xonixpacman.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -98,6 +203,6 @@ CMakeFiles/xonixpacman.dir/clean:
 .PHONY : CMakeFiles/xonixpacman.dir/clean
 
 CMakeFiles/xonixpacman.dir/depend:
-	cd /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roosevelt/Documentos/POO/Final/xonixPOO /home/roosevelt/Documentos/POO/Final/xonixPOO /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zero/Documentos/POO_II_Project/xonixPOO /home/zero/Documentos/POO_II_Project/xonixPOO /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xonixpacman.dir/depend
 

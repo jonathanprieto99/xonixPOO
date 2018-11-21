@@ -1,4 +1,4 @@
-# Install script for directory: /home/roosevelt/Documentos/POO/Final/xonixPOO
+# Install script for directory: /home/zero/Documentos/POO_II_Project/xonixPOO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO
+CMAKE_SOURCE_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/xonixpacman.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-deb
 CMakeFiles/xonixpacman.dir/all:
 	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/depend
 	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target xonixpacman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target xonixpacman"
 .PHONY : CMakeFiles/xonixpacman.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/xonixpacman.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xonixpacman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xonixpacman.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/xonixpacman.dir/rule
 
 # Convenience name for target.

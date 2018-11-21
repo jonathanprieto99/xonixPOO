@@ -1,5 +1,5 @@
-/snap/clion/49/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/roosevelt/Documentos/POO/Final/xonixPOO
+/home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zero/Documentos/POO_II_Project/xonixPOO
 -- Found SFML .. in /usr/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug
+-- Build files have been written to: /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug
