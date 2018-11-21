@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zero/Documentos/POO_II_Project/xonixPOO/Data.cpp" "/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/Data.cpp.o"
   "/home/zero/Documentos/POO_II_Project/xonixPOO/Entities.cpp" "/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/Entities.cpp.o"
   "/home/zero/Documentos/POO_II_Project/xonixPOO/Game.cpp" "/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/Game.cpp.o"
   "/home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.cpp" "/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir/Ghost.cpp.o"

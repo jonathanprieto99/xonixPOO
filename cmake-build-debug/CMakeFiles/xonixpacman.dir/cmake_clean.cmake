@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xonixpacman.dir/Item.cpp.o"
   "CMakeFiles/xonixpacman.dir/Game.cpp.o"
   "CMakeFiles/xonixpacman.dir/Menu.cpp.o"
+  "CMakeFiles/xonixpacman.dir/Data.cpp.o"
   "xonixpacman.pdb"
   "xonixpacman"
 )

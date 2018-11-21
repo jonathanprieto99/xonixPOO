@@ -123,6 +123,33 @@ xonixpacman/fast:
 	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
 .PHONY : xonixpacman/fast
 
+Data.o: Data.cpp.o
+
+.PHONY : Data.o
+
+# target to build an object file
+Data.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.o
+.PHONY : Data.cpp.o
+
+Data.i: Data.cpp.i
+
+.PHONY : Data.i
+
+# target to preprocess a source file
+Data.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.i
+.PHONY : Data.cpp.i
+
+Data.s: Data.cpp.s
+
+.PHONY : Data.s
+
+# target to generate assembly for a file
+Data.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.s
+.PHONY : Data.cpp.s
+
 Entities.o: Entities.cpp.o
 
 .PHONY : Entities.o
@@ -348,6 +375,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... xonixpacman"
+	@echo "... Data.o"
+	@echo "... Data.i"
+	@echo "... Data.s"
 	@echo "... Entities.o"
 	@echo "... Entities.i"
 	@echo "... Entities.s"
