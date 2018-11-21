@@ -1,5 +1,5 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/jonathanprieto/CLionProjects/Código Pacman"
--- Found SFML .. in /usr/local/include
+/snap/clion/49/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/roosevelt/Documentos/POO/Final/xonixPOO
+-- Found SFML .. in /usr/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/jonathanprieto/CLionProjects/Código Pacman/cmake-build-debug
+-- Build files have been written to: /home/roosevelt/Documentos/POO/Final/xonixPOO/cmake-build-debug
