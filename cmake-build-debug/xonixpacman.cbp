@@ -8,137 +8,129 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug"/>
+				<Option working_dir="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug"/>
+				<Option working_dir="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug"/>
+				<Option working_dir="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xonixpacman">
-				<Option output="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/xonixpacman" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug"/>
+				<Option output="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/xonixpacman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 xonixpacman"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 xonixpacman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xonixpacman/fast">
-				<Option output="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/xonixpacman" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug"/>
+				<Option output="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/xonixpacman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 xonixpacman/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 xonixpacman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Data.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Entities.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Data.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Entities.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Entities.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Game.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Entities.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Game.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Game.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Ghost.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Game.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Ghost.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Item.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Ghost.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Item.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Item.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Menu.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Item.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Menu.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Menu.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Player.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Menu.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Player.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Player.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Scene.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Player.h">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/data/Scene.h">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Scene.cpp">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/main.cpp">
 			<Option target="xonixpacman"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/Scene.h">
-			<Option target="xonixpacman"/>
-		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/main.cpp">
-			<Option target="xonixpacman"/>
-		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/CMakeLists.txt">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/zero/Documentos/POO_II_Project/xonixPOO/cmake_modules/FindSFML.cmake">
+		<Unit filename="/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake_modules/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>

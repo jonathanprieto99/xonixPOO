@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO
+CMAKE_SOURCE_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zero/Programas/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zero/Documentos/POO_II_Project/xonixPOO/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,221 +123,194 @@ xonixpacman/fast:
 	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
 .PHONY : xonixpacman/fast
 
-Data.o: Data.cpp.o
+data/Entities.o: data/Entities.cpp.o
 
-.PHONY : Data.o
-
-# target to build an object file
-Data.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.o
-.PHONY : Data.cpp.o
-
-Data.i: Data.cpp.i
-
-.PHONY : Data.i
-
-# target to preprocess a source file
-Data.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.i
-.PHONY : Data.cpp.i
-
-Data.s: Data.cpp.s
-
-.PHONY : Data.s
-
-# target to generate assembly for a file
-Data.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Data.cpp.s
-.PHONY : Data.cpp.s
-
-Entities.o: Entities.cpp.o
-
-.PHONY : Entities.o
+.PHONY : data/Entities.o
 
 # target to build an object file
-Entities.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.o
-.PHONY : Entities.cpp.o
+data/Entities.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.o
+.PHONY : data/Entities.cpp.o
 
-Entities.i: Entities.cpp.i
+data/Entities.i: data/Entities.cpp.i
 
-.PHONY : Entities.i
+.PHONY : data/Entities.i
 
 # target to preprocess a source file
-Entities.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.i
-.PHONY : Entities.cpp.i
+data/Entities.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.i
+.PHONY : data/Entities.cpp.i
 
-Entities.s: Entities.cpp.s
+data/Entities.s: data/Entities.cpp.s
 
-.PHONY : Entities.s
+.PHONY : data/Entities.s
 
 # target to generate assembly for a file
-Entities.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Entities.cpp.s
-.PHONY : Entities.cpp.s
+data/Entities.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.s
+.PHONY : data/Entities.cpp.s
 
-Game.o: Game.cpp.o
+data/Game.o: data/Game.cpp.o
 
-.PHONY : Game.o
+.PHONY : data/Game.o
 
 # target to build an object file
-Game.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.o
-.PHONY : Game.cpp.o
+data/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.o
+.PHONY : data/Game.cpp.o
 
-Game.i: Game.cpp.i
+data/Game.i: data/Game.cpp.i
 
-.PHONY : Game.i
+.PHONY : data/Game.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+data/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.i
+.PHONY : data/Game.cpp.i
 
-Game.s: Game.cpp.s
+data/Game.s: data/Game.cpp.s
 
-.PHONY : Game.s
+.PHONY : data/Game.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+data/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.s
+.PHONY : data/Game.cpp.s
 
-Ghost.o: Ghost.cpp.o
+data/Ghost.o: data/Ghost.cpp.o
 
-.PHONY : Ghost.o
+.PHONY : data/Ghost.o
 
 # target to build an object file
-Ghost.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.o
-.PHONY : Ghost.cpp.o
+data/Ghost.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.o
+.PHONY : data/Ghost.cpp.o
 
-Ghost.i: Ghost.cpp.i
+data/Ghost.i: data/Ghost.cpp.i
 
-.PHONY : Ghost.i
+.PHONY : data/Ghost.i
 
 # target to preprocess a source file
-Ghost.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.i
-.PHONY : Ghost.cpp.i
+data/Ghost.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.i
+.PHONY : data/Ghost.cpp.i
 
-Ghost.s: Ghost.cpp.s
+data/Ghost.s: data/Ghost.cpp.s
 
-.PHONY : Ghost.s
+.PHONY : data/Ghost.s
 
 # target to generate assembly for a file
-Ghost.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Ghost.cpp.s
-.PHONY : Ghost.cpp.s
+data/Ghost.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.s
+.PHONY : data/Ghost.cpp.s
 
-Item.o: Item.cpp.o
+data/Item.o: data/Item.cpp.o
 
-.PHONY : Item.o
+.PHONY : data/Item.o
 
 # target to build an object file
-Item.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.o
-.PHONY : Item.cpp.o
+data/Item.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.o
+.PHONY : data/Item.cpp.o
 
-Item.i: Item.cpp.i
+data/Item.i: data/Item.cpp.i
 
-.PHONY : Item.i
+.PHONY : data/Item.i
 
 # target to preprocess a source file
-Item.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.i
-.PHONY : Item.cpp.i
+data/Item.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.i
+.PHONY : data/Item.cpp.i
 
-Item.s: Item.cpp.s
+data/Item.s: data/Item.cpp.s
 
-.PHONY : Item.s
+.PHONY : data/Item.s
 
 # target to generate assembly for a file
-Item.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Item.cpp.s
-.PHONY : Item.cpp.s
+data/Item.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.s
+.PHONY : data/Item.cpp.s
 
-Menu.o: Menu.cpp.o
+data/Menu.o: data/Menu.cpp.o
 
-.PHONY : Menu.o
+.PHONY : data/Menu.o
 
 # target to build an object file
-Menu.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.o
-.PHONY : Menu.cpp.o
+data/Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.o
+.PHONY : data/Menu.cpp.o
 
-Menu.i: Menu.cpp.i
+data/Menu.i: data/Menu.cpp.i
 
-.PHONY : Menu.i
+.PHONY : data/Menu.i
 
 # target to preprocess a source file
-Menu.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.i
-.PHONY : Menu.cpp.i
+data/Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.i
+.PHONY : data/Menu.cpp.i
 
-Menu.s: Menu.cpp.s
+data/Menu.s: data/Menu.cpp.s
 
-.PHONY : Menu.s
+.PHONY : data/Menu.s
 
 # target to generate assembly for a file
-Menu.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Menu.cpp.s
-.PHONY : Menu.cpp.s
+data/Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.s
+.PHONY : data/Menu.cpp.s
 
-Player.o: Player.cpp.o
+data/Player.o: data/Player.cpp.o
 
-.PHONY : Player.o
+.PHONY : data/Player.o
 
 # target to build an object file
-Player.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.o
-.PHONY : Player.cpp.o
+data/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.o
+.PHONY : data/Player.cpp.o
 
-Player.i: Player.cpp.i
+data/Player.i: data/Player.cpp.i
 
-.PHONY : Player.i
+.PHONY : data/Player.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+data/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.i
+.PHONY : data/Player.cpp.i
 
-Player.s: Player.cpp.s
+data/Player.s: data/Player.cpp.s
 
-.PHONY : Player.s
+.PHONY : data/Player.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+data/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.s
+.PHONY : data/Player.cpp.s
 
-Scene.o: Scene.cpp.o
+data/Scene.o: data/Scene.cpp.o
 
-.PHONY : Scene.o
+.PHONY : data/Scene.o
 
 # target to build an object file
-Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.o
-.PHONY : Scene.cpp.o
+data/Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.o
+.PHONY : data/Scene.cpp.o
 
-Scene.i: Scene.cpp.i
+data/Scene.i: data/Scene.cpp.i
 
-.PHONY : Scene.i
+.PHONY : data/Scene.i
 
 # target to preprocess a source file
-Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.i
-.PHONY : Scene.cpp.i
+data/Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.i
+.PHONY : data/Scene.cpp.i
 
-Scene.s: Scene.cpp.s
+data/Scene.s: data/Scene.cpp.s
 
-.PHONY : Scene.s
+.PHONY : data/Scene.s
 
 # target to generate assembly for a file
-Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/Scene.cpp.s
-.PHONY : Scene.cpp.s
+data/Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.s
+.PHONY : data/Scene.cpp.s
 
 main.o: main.cpp.o
 
@@ -375,30 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... xonixpacman"
-	@echo "... Data.o"
-	@echo "... Data.i"
-	@echo "... Data.s"
-	@echo "... Entities.o"
-	@echo "... Entities.i"
-	@echo "... Entities.s"
-	@echo "... Game.o"
-	@echo "... Game.i"
-	@echo "... Game.s"
-	@echo "... Ghost.o"
-	@echo "... Ghost.i"
-	@echo "... Ghost.s"
-	@echo "... Item.o"
-	@echo "... Item.i"
-	@echo "... Item.s"
-	@echo "... Menu.o"
-	@echo "... Menu.i"
-	@echo "... Menu.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
-	@echo "... Scene.o"
-	@echo "... Scene.i"
-	@echo "... Scene.s"
+	@echo "... data/Entities.o"
+	@echo "... data/Entities.i"
+	@echo "... data/Entities.s"
+	@echo "... data/Game.o"
+	@echo "... data/Game.i"
+	@echo "... data/Game.s"
+	@echo "... data/Ghost.o"
+	@echo "... data/Ghost.i"
+	@echo "... data/Ghost.s"
+	@echo "... data/Item.o"
+	@echo "... data/Item.i"
+	@echo "... data/Item.s"
+	@echo "... data/Menu.o"
+	@echo "... data/Menu.i"
+	@echo "... data/Menu.s"
+	@echo "... data/Player.o"
+	@echo "... data/Player.i"
+	@echo "... data/Player.s"
+	@echo "... data/Scene.o"
+	@echo "... data/Scene.i"
+	@echo "... data/Scene.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
