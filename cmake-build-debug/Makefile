@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO
+CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/49/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/49/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,206 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named xonixpacman
+# Target rules for targets named MySFML2
 
 # Build rule for target.
-xonixpacman: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xonixpacman
-.PHONY : xonixpacman
+MySFML2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MySFML2
+.PHONY : MySFML2
 
 # fast build rule for target.
-xonixpacman/fast:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
-.PHONY : xonixpacman/fast
-
-data/Entities.o: data/Entities.cpp.o
-
-.PHONY : data/Entities.o
-
-# target to build an object file
-data/Entities.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.o
-.PHONY : data/Entities.cpp.o
-
-data/Entities.i: data/Entities.cpp.i
-
-.PHONY : data/Entities.i
-
-# target to preprocess a source file
-data/Entities.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.i
-.PHONY : data/Entities.cpp.i
-
-data/Entities.s: data/Entities.cpp.s
-
-.PHONY : data/Entities.s
-
-# target to generate assembly for a file
-data/Entities.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Entities.cpp.s
-.PHONY : data/Entities.cpp.s
-
-data/Game.o: data/Game.cpp.o
-
-.PHONY : data/Game.o
-
-# target to build an object file
-data/Game.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.o
-.PHONY : data/Game.cpp.o
-
-data/Game.i: data/Game.cpp.i
-
-.PHONY : data/Game.i
-
-# target to preprocess a source file
-data/Game.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.i
-.PHONY : data/Game.cpp.i
-
-data/Game.s: data/Game.cpp.s
-
-.PHONY : data/Game.s
-
-# target to generate assembly for a file
-data/Game.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Game.cpp.s
-.PHONY : data/Game.cpp.s
-
-data/Ghost.o: data/Ghost.cpp.o
-
-.PHONY : data/Ghost.o
-
-# target to build an object file
-data/Ghost.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.o
-.PHONY : data/Ghost.cpp.o
-
-data/Ghost.i: data/Ghost.cpp.i
-
-.PHONY : data/Ghost.i
-
-# target to preprocess a source file
-data/Ghost.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.i
-.PHONY : data/Ghost.cpp.i
-
-data/Ghost.s: data/Ghost.cpp.s
-
-.PHONY : data/Ghost.s
-
-# target to generate assembly for a file
-data/Ghost.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Ghost.cpp.s
-.PHONY : data/Ghost.cpp.s
-
-data/Item.o: data/Item.cpp.o
-
-.PHONY : data/Item.o
-
-# target to build an object file
-data/Item.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.o
-.PHONY : data/Item.cpp.o
-
-data/Item.i: data/Item.cpp.i
-
-.PHONY : data/Item.i
-
-# target to preprocess a source file
-data/Item.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.i
-.PHONY : data/Item.cpp.i
-
-data/Item.s: data/Item.cpp.s
-
-.PHONY : data/Item.s
-
-# target to generate assembly for a file
-data/Item.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Item.cpp.s
-.PHONY : data/Item.cpp.s
-
-data/Menu.o: data/Menu.cpp.o
-
-.PHONY : data/Menu.o
-
-# target to build an object file
-data/Menu.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.o
-.PHONY : data/Menu.cpp.o
-
-data/Menu.i: data/Menu.cpp.i
-
-.PHONY : data/Menu.i
-
-# target to preprocess a source file
-data/Menu.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.i
-.PHONY : data/Menu.cpp.i
-
-data/Menu.s: data/Menu.cpp.s
-
-.PHONY : data/Menu.s
-
-# target to generate assembly for a file
-data/Menu.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Menu.cpp.s
-.PHONY : data/Menu.cpp.s
-
-data/Player.o: data/Player.cpp.o
-
-.PHONY : data/Player.o
-
-# target to build an object file
-data/Player.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.o
-.PHONY : data/Player.cpp.o
-
-data/Player.i: data/Player.cpp.i
-
-.PHONY : data/Player.i
-
-# target to preprocess a source file
-data/Player.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.i
-.PHONY : data/Player.cpp.i
-
-data/Player.s: data/Player.cpp.s
-
-.PHONY : data/Player.s
-
-# target to generate assembly for a file
-data/Player.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Player.cpp.s
-.PHONY : data/Player.cpp.s
-
-data/Scene.o: data/Scene.cpp.o
-
-.PHONY : data/Scene.o
-
-# target to build an object file
-data/Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.o
-.PHONY : data/Scene.cpp.o
-
-data/Scene.i: data/Scene.cpp.i
-
-.PHONY : data/Scene.i
-
-# target to preprocess a source file
-data/Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.i
-.PHONY : data/Scene.cpp.i
-
-data/Scene.s: data/Scene.cpp.s
-
-.PHONY : data/Scene.s
-
-# target to generate assembly for a file
-data/Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/data/Scene.cpp.s
-.PHONY : data/Scene.cpp.s
+MySFML2/fast:
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/build
+.PHONY : MySFML2/fast
 
 main.o: main.cpp.o
 
@@ -318,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -327,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -336,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -347,28 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... xonixpacman"
-	@echo "... data/Entities.o"
-	@echo "... data/Entities.i"
-	@echo "... data/Entities.s"
-	@echo "... data/Game.o"
-	@echo "... data/Game.i"
-	@echo "... data/Game.s"
-	@echo "... data/Ghost.o"
-	@echo "... data/Ghost.i"
-	@echo "... data/Ghost.s"
-	@echo "... data/Item.o"
-	@echo "... data/Item.i"
-	@echo "... data/Item.s"
-	@echo "... data/Menu.o"
-	@echo "... data/Menu.i"
-	@echo "... data/Menu.s"
-	@echo "... data/Player.o"
-	@echo "... data/Player.i"
-	@echo "... data/Player.s"
-	@echo "... data/Scene.o"
-	@echo "... data/Scene.i"
-	@echo "... data/Scene.s"
+	@echo "... MySFML2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

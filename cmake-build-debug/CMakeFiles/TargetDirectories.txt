@@ -1,3 +1,3 @@
-/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles/xonixpacman.dir
+/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles/MySFML2.dir

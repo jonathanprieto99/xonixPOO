@@ -50,54 +50,54 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/49/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /snap/clion/49/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO
+CMAKE_SOURCE_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug
+CMAKE_BINARY_DIR = /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/xonixpacman.dir
+# Target rules for target CMakeFiles/MySFML2.dir
 
 # All Build rule for target.
-CMakeFiles/xonixpacman.dir/all:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/depend
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target xonixpacman"
-.PHONY : CMakeFiles/xonixpacman.dir/all
+CMakeFiles/MySFML2.dir/all:
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/depend
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target MySFML2"
+.PHONY : CMakeFiles/MySFML2.dir/all
 
 # Include target in all.
-all: CMakeFiles/xonixpacman.dir/all
+all: CMakeFiles/MySFML2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/xonixpacman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xonixpacman.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jonathanprieto/Documents/GitHub/xonixPOO/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/xonixpacman.dir/rule
+CMakeFiles/MySFML2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MySFML2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roosevelt/Documentos/POO/Happy/xonixPOO/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/MySFML2.dir/rule
 
 # Convenience name for target.
-xonixpacman: CMakeFiles/xonixpacman.dir/rule
+MySFML2: CMakeFiles/MySFML2.dir/rule
 
-.PHONY : xonixpacman
-
-# clean rule for target.
-CMakeFiles/xonixpacman.dir/clean:
-	$(MAKE) -f CMakeFiles/xonixpacman.dir/build.make CMakeFiles/xonixpacman.dir/clean
-.PHONY : CMakeFiles/xonixpacman.dir/clean
+.PHONY : MySFML2
 
 # clean rule for target.
-clean: CMakeFiles/xonixpacman.dir/clean
+CMakeFiles/MySFML2.dir/clean:
+	$(MAKE) -f CMakeFiles/MySFML2.dir/build.make CMakeFiles/MySFML2.dir/clean
+.PHONY : CMakeFiles/MySFML2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/MySFML2.dir/clean
 
 .PHONY : clean
 
